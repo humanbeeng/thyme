@@ -40,7 +40,7 @@ require('./routes/authRoutes')(app);
 
 app.get('/', (req, res) => {
     if(req.user){
-        res.send('welcome back logged in user ' + req.session)
+        res.send('welcome back logged in user ' + req.user.id)
     }
     else{
         res.send('not logged ' + req.session)
