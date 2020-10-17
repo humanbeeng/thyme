@@ -43,6 +43,7 @@ app.get('/', (req, res) => {
         res.send('welcome back logged in user ' + req.user.id)
     }
     else{
+        
         res.send('not logged ' + req.session)
     }
 });
@@ -56,6 +57,13 @@ app.listen(PORT, console.log("Listening through port " + PORT + " !"));
 
 
 /*
+QUICK NOTES :
+
+1. Serialize user gets called ony during the login process only
+
+2. Once deserialized, the user object has the user object with the actual
+user id and only the deserlializer is the one called for every request coming
+from the client
 
 
 
