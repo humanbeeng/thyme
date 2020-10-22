@@ -1,0 +1,46 @@
+.mainApp {
+  background-image: url("../assets/landing.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.thyme {
+  font-family: 'Pacifico';
+  color: whitesmoke;
+  font-size: 100px;
+  position: relative;
+  left: 20%;
+  top: 35%;
+  -webkit-user-select:none
+  
+}
+.signin{
+  font-family: Pacifico;
+  position: relative;
+  justify-content: center;
+
+}
+.websiteFont{
+  font-family: Pacifico;
+}
+.slogan{
+  font-family: 'Pacifico';
+  color: whitesmoke;
+  font-size: 30px;
+  position: relative;
+  left: 10%;
+  top: 35%;
+  -webkit-user-select:none
+
+}
